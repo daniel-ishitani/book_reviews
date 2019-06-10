@@ -1,6 +1,7 @@
 class Api::V1::RegistrationsController < Devise::RegistrationsController
     before_action :ensure_params_exist, only: :create
 
+    #sign up
     def create
         user = User.new(user_params)
 
