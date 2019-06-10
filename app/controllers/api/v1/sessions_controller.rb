@@ -10,7 +10,7 @@ class Api::V1::SessionsController < Devise::SessionsController
             sign_in("user", @user)
             json_response "Signed in successfully", true, {user: @user}, :ok
         else
-            json_response "Unauthorized", false, {}, :Unauthorized
+            json_response "Unauthorized", false, {}, :unauthorized
         end
     end
 
