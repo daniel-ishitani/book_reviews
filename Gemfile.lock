@@ -49,6 +49,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    after_commit_action (1.1.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
     arel (9.0.0)
     bcrypt (3.1.13)
     bootsnap (1.4.4)
@@ -58,6 +61,10 @@ GEM
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.1.5)
+    counter_culture (1.12.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      after_commit_action (~> 1.0)
     crass (1.0.4)
     devise (4.6.2)
       bcrypt (~> 3.0)
@@ -175,6 +182,7 @@ DEPENDENCIES
   active_model_serializers (~> 0.10.0)
   bootsnap (>= 1.1.0)
   byebug
+  counter_culture (~> 1.8)
   devise
   faker
   koala (~> 3.0.0)
