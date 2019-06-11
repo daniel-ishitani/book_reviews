@@ -57,6 +57,9 @@ GEM
     bootsnap (1.4.4)
       msgpack (~> 1.0)
     builder (3.2.3)
+    bullet (6.0.0)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.11)
     byebug (11.0.1)
     case_transform (0.2)
       activesupport
@@ -169,6 +172,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uniform_notifier (1.12.1)
     warden (1.2.8)
       rack (>= 2.0.6)
     websocket-driver (0.7.0)
@@ -181,6 +185,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.10.0)
   bootsnap (>= 1.1.0)
+  bullet
   byebug
   counter_culture (~> 1.8)
   devise
